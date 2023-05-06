@@ -34,6 +34,10 @@
      margin-right: 6rem;
 }
 
+.nav-brand >a{
+     text-decoration: none;
+}
+
 .nav-list{
      display: flex;
      gap: 1.5rem;
@@ -47,7 +51,7 @@
      font-size: 16px;
 }
 
-.nav-list a:hover{
+.nav-list a:hover, .shine:hover{
      text-shadow: 0 0 20px #edb844, 0 0 20px #edb844, 0 0 20px #edb844;
      color:#f0f0f0;
      transition: 0.1s ease-in-out all;
