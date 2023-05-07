@@ -44,3 +44,44 @@
      font-weight: 300;
      color: rgb(185, 185, 185);
 }
+
+
+/* responsiveness */
+@media(max-width: 858px){
+     .line{
+          display: none;
+     }
+     
+     .hero-wrapper div{
+          align-items: center;
+     }
+
+     .hero-wrapper div h1{
+          font-size: 20px;
+     }
+
+     .hero-wrapper div h2:last-child{
+          align-self: center;
+          text-align: center;
+          font-size: 20px;
+     }
+
+     .hero-brand{
+          font-size: 50px;
+     }
+}
+
+@media(max-width:642px){
+     .hero-wrapper div h1{
+          font-size: 17px;
+     }
+
+     .hero-wrapper div h2:last-child{
+          font-size: 17px;
+     }
+
+     .hero-brand{
+          font-size: 50px;
+          width: 300px;
+     }
+}
