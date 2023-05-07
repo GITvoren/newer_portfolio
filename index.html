@@ -12,22 +12,24 @@
           <link rel="stylesheet" href="./css/landing.css">
           <link rel="stylesheet" href="./css/arrow.css">
           <link rel="stylesheet" href="./css/shine.css">
+          <link rel="stylesheet" href="./css/about.css">
+          <link rel="stylesheet" href="./css/skills.css">
      </head>
      <body>
+          <div class="vertical-nav">
+               <img src="./assets/github.png" alt="Github" class="icon-link">
+               <img src="./assets/linkedin.png" alt="Linkedin" class="icon-link">
+               <img src="./assets/email.png" alt="Email" class="icon-link">
+               
+          </div>
           <!-- Navbar start-->
           <nav>
-               <div class="vertical-nav">
-                    <img src="./assets/github.png" alt="Github" class="icon-link">
-                    <img src="./assets/linkedin.png" alt="Linkedin" class="icon-link">
-                    <img src="./assets/email.png" alt="Email" class="icon-link">
-                    
-               </div>
                <div class="horizontal-nav">
                     <div class="nav-brand">
                          <a href=""><h1 class="shine">Voren Tejuco</h1></a>
                     </div>
                     <div class="nav-list">
-                         <a href="">About</a>
+                         <a href="#about">About</a>
                          <a href="">Skills</a>
                          <a href="">Projects</a>
                          <a href="">Contact</a>
@@ -43,16 +45,22 @@
                          <span></span>
                     </div>
                     <div class="mobile-nav-list">
-                         <a href="#" onclick="toggleMenu()">About</a>
+                         <a href="#about" onclick="toggleMenu()">About</a>
                          <a href="#" onclick="toggleMenu()">Skills</a>
                          <a href="#" onclick="toggleMenu()">Projects</a>
                          <a href="#" onclick="toggleMenu()">Contact</a>
+                         <hr>
+                         <div class="flex-me">
+                              <img src="./assets/github.png" alt="Github" class="icon-link">
+                              <img src="./assets/linkedin.png" alt="Linkedin" class="icon-link">
+                              <img src="./assets/email.png" alt="Email" class="icon-link">
+                         </div>
+                         
                     </div>
                </div>
-               
-               
           </nav>
           <!-- Navbar end -->
+          <!-- Landing start -->
           <div class="landing-container">
                <div class="hero-wrapper">
                     <div>
@@ -62,13 +70,166 @@
                     </div>     
                </div> 
                <div class="arrow-container">
-                    <div class="arrow-scroll">
-                         <div class="arrow"></div>
-                         <div class="arrow"></div>
-                         <div class="arrow"></div>
-                    </div> 
-               </div>   
+                    <a href="#about"> 
+                         <div class="arrow-scroll">
+                              <div class="arrow"></div>
+                              <div class="arrow"></div>
+                              <div class="arrow"></div>
+                         </div> 
+                    </a>  
+               </div> 
+               <div class="landing-arrow">
+                    <a href="#about"> 
+                         <div class="arrow-scroll">
+                              <div class="arrow"></div>
+                              <div class="arrow"></div>
+                              <div class="arrow"></div>
+                         </div> 
+                    </a>  
+               </div>     
           </div>
+          
+          <!-- Landing end -->
+          <!-- About start -->
+          <section id="about">
+               <div class="section-container">
+                    <p class="section-subheader">Get To Know More</p>
+                    <p class="section-header">About Me</p>
+                    <div class="center-me">
+                         <div class="flex-column-me">
+                              <div class="section-subcontainer">
+                                   <img src="./assets/me5.png" class="about-img" alt="voren"/>
+                                   <div class="about-container">
+                                        <h1>Fullstack Web Developer</h1>
+                                        <h2><img src="./assets/location.png" class="loc" alt="icon"/> Batangas, Philippines</h2>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ullam veniam doloremque debitis non, accusantium tempora perspiciatis voluptate! Optio nemo perferendis dolorem neque quae laborum quia incidunt, fugiat saepe velit.</p>
+                                   </div>
+          
+                              </div>
+                              <div class="about-btn">
+                                   <button>Download CV</button>
+                                   <button>Contact Info</button>
+                              </div>
+                         </div>
+                    </div>  
+               </div>
+               <div class="arrow-container">
+                    <a href="#skills"> 
+                         <div class="arrow-scroll">
+                              <div class="arrow"></div>
+                              <div class="arrow"></div>
+                              <div class="arrow"></div>
+                         </div> 
+                    </a>  
+               </div>
+          </section>
+          <!-- About end -->
+          <!-- Skills start -->
+          <section id="skills">
+               <div class="section-container">
+                    <p class="section-subheader">Explore My</p>
+                    <p class="section-header">Skills</p>
+                    <div class="skills-container">
+                         <div class="skills-subcontainer">
+                              <h2>Frontend</h2>
+                              <div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>React</p>
+                                        <p>78%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-react"></div>
+                                   </div>
+                              </div><div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>CSS</p>
+                                        <p>83%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-css"></div>
+                                   </div>
+                              </div>
+                              <div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>JavaScript</p>
+                                        <p>73%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-js"></div>
+                                   </div>
+                              </div>
+                              <div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>HTML</p>
+                                        <p>86%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-html"></div>
+                                   </div>
+                              </div>
+                              <div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>Bootstrap</p>
+                                        <p>81%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-bs"></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="skills-subcontainer">
+                              <h2>Backend</h2>
+                              <div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>Node.js</p>
+                                        <p>68%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-node"></div>
+                                   </div>
+                              </div>
+                              <div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>Express</p>
+                                        <p>65%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-x"></div>
+                                   </div>
+                              </div>
+                              <div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>JavaScript</p>
+                                        <p>71%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-jsb"></div>
+                                   </div>
+                              </div>
+                              <div class="expert-container">
+                                   <div class="expert-label">
+                                        <p>MongoDB</p>
+                                        <p>67%</p>
+                                   </div>
+                                   <div class="bar-border">
+                                        <div class="bar bar-mongo"></div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="arrow-container">
+                    <a href="#"> 
+                         <div class="arrow-scroll">
+                              <div class="arrow"></div>
+                              <div class="arrow"></div>
+                              <div class="arrow"></div>
+                         </div> 
+                    </a>  
+               </div>
+               
+          </section>
+          <!-- Skills end -->
           <!-- JavaScript -->
           <script src="./script.js"></script>
      </body>

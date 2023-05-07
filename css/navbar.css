@@ -10,6 +10,7 @@
      align-items: center;
      gap: 1.5rem;
      justify-content: flex-end;
+     z-index: 9999;
 }
 
 
@@ -22,16 +23,15 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     padding: 1.5rem 0;
+     padding: 1.5rem 3.5rem;
 }
 
 .horizontal-nav h1{
-     margin-left: 10rem;
      font-weight: 500;
 }
 
 .horizontal-nav .nav-list{
-     margin-right: 6rem;
+
 }
 
 .nav-brand >a{
@@ -110,7 +110,7 @@
      display: none;
      flex-direction: column; 
      position: absolute;
-     right: 22%;
+     right: 10%;
      top: 75%;
      gap: 1rem;
      background-color: #f0f0f0b0;
@@ -119,6 +119,17 @@
      align-items: center;
      padding: 1.5rem;
      border-radius: 8px;
+     z-index: 9129;
+     font-weight: 600;
+}
+
+.mobile-nav-list hr{
+     border: 1px solid black;
+     width: 100%;
+}
+
+.mobile-nav-list .flex-me img{
+     filter: invert(0);
 }
 
 .mobile-nav-list a{
@@ -165,8 +176,26 @@
      .mobile-nav{
           display: flex;
           align-items: center;
-          justify-content: space-around;
-          padding: 1.5rem 0;
+          justify-content: space-between;
+          padding: 1.5rem 2.5rem;
+
+     }
+
+     body{
+          margin-left: 0;
+     }
+
+     .vertical-nav{
+          display: none;
+     }
+
+     .arrow-container{
+          display: none;
      }
      
+}
+
+.flex-me{
+     display: flex;
+     gap: 1rem;
 }
