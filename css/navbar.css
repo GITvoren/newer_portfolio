@@ -113,7 +113,7 @@
      right: 10%;
      top: 75%;
      gap: 1rem;
-     background-color: #f0f0f0b0;
+     background-color: #f0f0f0d7;
      width: 200px;
      justify-content: center;
      align-items: center;
@@ -176,9 +176,8 @@
      .mobile-nav{
           display: flex;
           align-items: center;
-          justify-content: space-between;
+          justify-content: space-between!important;
           padding: 1.5rem 2.5rem;
-
      }
 
      body{

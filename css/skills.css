@@ -15,8 +15,10 @@
      gap: 2rem;
 }
 
-.skills-subcontainer>h2{
-     align-self: center;
+
+
+.skills-subcontainer div h2{
+     
      font-weight: 300;
      color: #f0f0f0;   
 }
@@ -38,7 +40,7 @@
 }
 
 .bar{
-     height: 12px;
+     height: 5px;
      background-color: #EDB846;
      border-top-left-radius: 12px;
      border-bottom-left-radius: 12px;
@@ -54,7 +56,7 @@
           margin: 3rem;
      }
 
-     .skills-subcontainer>h2{
+     .skills-subcontainer div h2{
           font-size: 16px;
      }
 
@@ -97,4 +99,15 @@
 
 .bar-mongo{
      width: 67%;
+}
+
+.skills-icon{
+     height: 25px;
+}
+
+.skills-flex{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     align-self: center;
 }

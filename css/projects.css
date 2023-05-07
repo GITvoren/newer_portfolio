@@ -1,0 +1,36 @@
+#projects{
+     position: relative;
+}
+
+.projects-container{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+
+.projects-wrapper{
+     width: 350px;
+     border: 1px solid gold;
+     min-height: 400px;
+}
+
+@media(max-width:1024px){
+     .projects-container{
+          flex-direction: column;
+          position: static;
+          gap: 2rem;
+     }
+
+     .projects-container div:first-child{
+          margin-top: 3rem;
+     }
+
+     .projects-container div:last-child{
+          margin-bottom: 3rem;
+     }
+}
