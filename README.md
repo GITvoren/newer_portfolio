@@ -2,7 +2,7 @@
 
 ### Hello 🙋🏻‍♂️!!
 
-##### I used [ParticleJS](https://vincentgarreau.com/particles.js/) for the animated background 😎
+I used [ParticleJS](https://vincentgarreau.com/particles.js/) for the animated background 😎
 
 
 ### Other Tools used
