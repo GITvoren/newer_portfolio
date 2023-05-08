@@ -1,8 +1,11 @@
 .contact-container{
-     margin-top: 5rem;
      display: flex;
      justify-content: center;
      gap: 10rem;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 25%;
 }
 
 
@@ -22,6 +25,7 @@
      color: rgb(230, 230, 230);
      text-align: justify;
      font-weight: 300;
+     padding: 0 1rem;
 }
 
 .contact-info-links{
@@ -45,7 +49,6 @@
 .contact-form-container{
      max-width: 500px;
      height: auto;
-     margin: 0 1rem;
 }
 
 .contact-form-container h3{
@@ -141,6 +144,10 @@
           align-items: center;
           gap: 5rem;
      }
+
+     footer{
+          margin-top: 30rem;
+     }
 }
 
 @media(max-width:464px){
@@ -150,4 +157,55 @@
      .contact-container p{
           font-size: 13px;
      }
+
+     .contact-form{
+          width: 350px;
+     }
+
+     .footer-container{
+          gap: 1.5rem!important;
+     }
+
+     .footer-container a{
+          font-size: 14px!important;
+      }
+
+      #copyr{
+          font-size: 12px!important;
+      }
 }
+
+
+
+ 
+
+ #contact{
+     position: relative;
+ }
+
+
+
+ .footer-container{
+     display: flex;
+     justify-content: center;
+     gap: 3rem;
+     background: none;
+
+
+ }
+
+ .footer-container a{
+     text-decoration: none;
+     color: rgb(170, 170, 170);
+     font-size: 18px;
+ }
+
+ #copyr{
+     text-align: center;
+     display: block;
+     color: rgb(170, 170, 170);
+     font-weight: 300;
+     margin-top: 1rem;
+     letter-spacing: 1px;
+     font-size: 14px;
+ }
