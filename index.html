@@ -21,10 +21,21 @@
      <body>
           
           <div class="vertical-nav">
-               <img src="./assets/github.png" alt="Github" class="icon-link">
-               <img src="./assets/linkedin.png" alt="Linkedin" class="icon-link">
-               <img src="./assets/email.png" alt="Email" class="icon-link">
-               
+               <img src="./assets/github.png" 
+               alt="Github" 
+               class="icon-link" 
+               onclick="window.open('https://github.com/GITvoren')" 
+               />
+               <img src="./assets/linkedin.png" 
+               alt="Linkedin" 
+               class="icon-link" 
+               onclick="window.open('https://www.linkedin.com/in/tejucovoren/')"
+               />
+               <img src="./assets/email.png" 
+               alt="Email" 
+               class="icon-link" 
+               onclick="window.open('mailto:tejuco.voren@gmail.com')"
+               />
           </div>
           <!-- Navbar start-->
           <nav>
@@ -55,9 +66,21 @@
                          <a href="#contact" onclick="toggleMenu()">Contact</a>
                          <hr>
                          <div class="flex-me">
-                              <img src="./assets/github.png" alt="Github" class="icon-link">
-                              <img src="./assets/linkedin.png" alt="Linkedin" class="icon-link">
-                              <img src="./assets/email.png" alt="Email" class="icon-link">
+                              <img src="./assets/github.png" 
+                              alt="Github" 
+                              class="icon-link" 
+                              onclick="window.open('https://github.com/GITvoren')" 
+                              />
+                              <img src="./assets/linkedin.png" 
+                              alt="Linkedin" 
+                              class="icon-link" 
+                              onclick="window.open('https://www.linkedin.com/in/tejucovoren/')"
+                              />
+                              <img src="./assets/email.png" 
+                              alt="Email" 
+                              class="icon-link" 
+                              onclick="window.open('mailto:tejuco.voren@gmail.com')"
+                              />
                          </div>
                          
                     </div>
@@ -110,8 +133,8 @@
           
                               </div>
                               <div class="about-btn">
-                                   <button>Download CV</button>
-                                   <button>Contact Info</button>
+                                   <button onclick="window.open('./assets/resume.pdf')">Download CV</button>
+                                   <a href="#contact"><button>Contact Info</button></a>
                               </div>
                          </div>
                     </div>  
@@ -255,8 +278,15 @@
                                         <span>CSS</span>
                                    </div>
                                    <div class="project-btn-container1">
-                                        <a href="">&lt;README/></a>
-                                        <a href="">&lt;DEMO/></a>
+                                        <a 
+                                             href="https://github.com/GITvoren/static-forexcourse-bootstrap" target="_blank">
+                                             &lt;README/>
+                                        </a>
+                                        <a 
+                                             href="https://fxdotnotes.vercel.app/" 
+                                             target="_blank">
+                                             &lt;DEMO/>
+                                        </a>
                                    </div> 
                               </div>
                                
@@ -275,8 +305,15 @@
                                              <span>MongoDB</span>
                                         </div>
                                         <div class="project-btn-container">
-                                             <a href="">&lt;README/></a>
-                                             <a href="">&lt;DEMO/></a>
+                                             <a 
+                                                  href="https://github.com/GITvoren/ecommerce-react" target="_blank">
+                                                  &lt;README/>
+                                             </a>
+                                             <a 
+                                                  href="https://detour-ecommerce.vercel.app/" 
+                                                  target="_blank">
+                                                  &lt;DEMO/>
+                                             </a>
                                         </div> 
                                    </div>
                               </div>
@@ -294,8 +331,15 @@
                                         <span>MongoDB</span>
                                    </div>
                                    <div class="project-btn-container">
-                                        <a href="">&lt;README/></a>
-                                        <a href="">&lt;DEMO/></a>
+                                        <a 
+                                             href="https://github.com/GITvoren/course_booking_react" target="_blank">
+                                             &lt;README/>
+                                        </a>
+                                        <a 
+                                             href="https://codelab-react.vercel.app/" 
+                                             target="_blank">
+                                             &lt;DEMO/>
+                                        </a>
                                    </div> 
                               </div> 
                          </div>
@@ -313,10 +357,18 @@
                               <h3>Contact Info</h3>
                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ipsum animi. Nulla asperiores suscipit voluptas odio nobis veritatis laborum? Nesciunt?</p>
                               <div class="contact-info-links">
-                                   <a href=""><p><img src="./assets/email-gold.png" alt="logo">tejuco.voren@gmail.com</p></a>
-                                   <a href=""><p><img src="./assets/linkedIn-gold.png" alt="logo">LinkedIn</p></a>
-                                   <a href=""><p><img src="./assets/msgr-gold.png" alt="logo">Messenger</p>     </a>
-                                   <a href=""><p><img src="./assets/tg-gold.png" alt="logo">Telegram</p></a>     
+                                   <a 
+                                   href="mailto:tejuco.voren@gmail.com"
+                                   target="_blank"><p><img src="./assets/email-gold.png" alt="logo">tejuco.voren@gmail.com</p></a>
+                                   <a 
+                                   href="https://www.linkedin.com/in/tejucovoren/"
+                                   target="_blank"><p><img src="./assets/linkedIn-gold.png" alt="logo">LinkedIn</p></a>
+                                   <a 
+                                   href="https://m.me/v0e2i2t1"
+                                   target="_blank"><p><img src="./assets/msgr-gold.png" alt="logo">Messenger</p>     </a>
+                                   <a 
+                                   href="https://t.me/v_dev_mobius"
+                                   target="_blank"><p><img src="./assets/tg-gold.png" alt="logo">Telegram</p></a>     
                               </div>
                                                 
                          </div>
@@ -339,7 +391,7 @@
                                    </div>
                                    <div>
                                         <label for="">Message</label><br/>
-                                        <textarea name="Message" id="" cols="30" rows="10">
+                                        <textarea id="" cols="30" rows="10">
                                         </textarea>
                                    </div>
                                    <div>
