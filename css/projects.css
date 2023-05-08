@@ -109,6 +109,9 @@
 
 }
 
+.project-btn-container1 img:hover, .project-btn-container img:hover{
+     filter: invert(30%);
+}
 
 
 
@@ -116,3 +119,4 @@
      height: 30px;
      cursor: pointer;
 }
+
