@@ -134,7 +134,7 @@
 
 
 .send:hover{
-     filter: invert(40%);
+     filter: hue-rotate(60deg);
 }
 
 .contact-info-links a{
